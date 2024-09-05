@@ -2,7 +2,7 @@
     import GradientButton from '../lib/components/GradientButton.svelte';
   </script>
       <main>
-          <h1 class="text-[110px] text-center bg-gray-100">HELLO WORLD</h1>
+          <h1 class="text-[110px] text-center bg-gray-100">HELLO world</h1>
             <div class="flex items-center justify-center h-screen bg-gray-100">
               
               <GradientButton />
