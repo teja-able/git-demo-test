@@ -19,7 +19,7 @@
         
         <label class="inline-flex items-center ml-4">
           <input type="radio" bind:group={selectedOption} value="no" />
-          <span class="ml-2">No</span>
+          <span class="ml-2">Noo</span>
         </label>
         
         <p class="mt-4">Selected: {selectedOption}</p>
