@@ -6,6 +6,8 @@
             <div class="flex items-center justify-center h-screen bg-gray-100">
               
               <GradientButton />
+              <div>click hear <GradientButton /></div>
             </div>
+           
       </main>
   
