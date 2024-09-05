@@ -1,12 +1,12 @@
 <script>
 	import CountriesData from '$lib/components/CountriesData.svelte';
 	import GradientButton from '../lib/components/GradientButton.svelte';
-  let selectedOption = '';
+	let selectedOption = '';
 </script>
 
 <main class="flex flex-col justify-center main bg-black text-white h-screen">
 	<CountriesData />
-	<h1 class="text-[110px] text-center">HELLO world</h1>
+	<h1 class="text-[110px] text-center">HELLO World</h1>
 	<CountriesData />
 	<div class="flex items-center gap-10 justify-center mt-40">
 		<GradientButton />
@@ -19,7 +19,7 @@
         
         <label class="inline-flex items-center ml-4">
           <input type="radio" bind:group={selectedOption} value="no" />
-          <span class="ml-2">Noo</span>
+          <span class="ml-2">No</span>
         </label>
         
         <p class="mt-4">Selected: {selectedOption}</p>

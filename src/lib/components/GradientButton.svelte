@@ -3,7 +3,7 @@
 </script>
 
 <button class="gradient-btn bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white">
-	Hover Me
+	hover the button
 </button>
 
 <style>
