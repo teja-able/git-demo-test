@@ -1,11 +1,15 @@
 <script>
+	import CountriesData from '$lib/components/CountriesData.svelte';
 	import GradientButton from '../lib/components/GradientButton.svelte';
 </script>
 
-<main>
-	<h1 class="text-[110px] text-center bg-gray-100">HELLO world</h1>
-	<div class="flex items-center justify-center h-screen bg-gray-100">
+<main class="main bg-black text-white h-screen">
+	<CountriesData />
+	<h1 class="text-[110px] text-center">HELLO world</h1>
+	<CountriesData />
+	<div class="flex items-center gap-10 justify-center mt-40">
 		<GradientButton />
-		<div>click here <GradientButton /></div>
+		<p>click here</p>
+		<GradientButton />
 	</div>
 </main>
