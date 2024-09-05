@@ -10,8 +10,6 @@
 	<CountriesData />
 	<div class="flex items-center gap-10 justify-center mt-40">
 		<GradientButton />
-		<p>click here</p>
-		<GradientButton />
       <div class="p-4">
         <label class="block mb-2 font-bold">Choose one  :</label>
         <label class="inline-flex items-center">
@@ -27,6 +25,5 @@
         <p class="mt-4">Selected: {selectedOption}</p>
       </div></div>
 
-		<div>click here <GradientButton />
-	</div>
+	
 </main>
