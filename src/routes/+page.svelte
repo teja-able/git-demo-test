@@ -3,7 +3,7 @@
 	import GradientButton from '../lib/components/GradientButton.svelte';
 </script>
 
-<main class="main bg-black text-white h-screen">
+<main class="flex flex-col justify-center main bg-black text-white h-screen">
 	<CountriesData />
 	<h1 class="text-[110px] text-center">HELLO world</h1>
 	<CountriesData />
